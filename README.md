@@ -47,30 +47,21 @@ pip install hail
 Download the following reference files and place them in the `resources/` directory.
 
 #### Reference Genome
-| File | Source |
-|------|--------|
-| GRCh38 FASTA | [UCSC](https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.fa.gz) |
+- **GRCh38 FASTA**: https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/
 
 #### Repeat & Difficult Region Annotations
-| File | Description | Source |
-|------|-------------|--------|
-| RepeatMasker | Interspersed repeats | [UCSC Table Browser](https://genome.ucsc.edu/cgi-bin/hgTables) (track: RepeatMasker) |
-| LCR | Low-complexity regions | [Li 2014](https://github.com/lh3/varcmp/raw/master/scripts/LCR-hs38.bed.gz) |
-| Tandem Repeats | TRGT catalog | [Prodnik et al., 2025 (Zenodo)](https://zenodo.org/records/13178746) |
+- **RepeatMasker**: UCSC Table Browser (https://genome.ucsc.edu/cgi-bin/hgTables), track: RepeatMasker
+- **Low-complexity regions (LCR)**: https://github.com/lh3/varcmp/raw/master/scripts/LCR-hs38.bed.gz (Li, 2014)
+- **Tandem Repeat catalog**: https://zenodo.org/records/13178746 (Porubsky et al., 2025)
 
 #### GIAB Genome Stratifications (v3.6)
-Download from [GIAB FTP](https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/release/genome-stratifications/v3.6/GRCh38@all/):
-
-| File | Description |
-|------|-------------|
-| `GRCh38_AllTandemRepeatsandHomopolymers_slop5.bed.gz` | Homopolymers and tandem repeats |
-| `GRCh38_segdups.bed.gz` | Segmental duplications |
-| `GRCh38_alldifficultregions.bed.gz` | All difficult regions combined |
+Download from: https://ftp-trace.ncbi.nlm.nih.gov/ReferenceSamples/giab/release/genome-stratifications/v3.6/GRCh38@all/
+- `GRCh38_AllTandemRepeatsandHomopolymers_slop5.bed.gz` - Homopolymers and tandem repeats
+- `GRCh38_segdups.bed.gz` - Segmental duplications
+- `GRCh38_alldifficultregions.bed.gz` - All difficult regions combined
 
 #### Population Frequency (Optional)
-| File | Source |
-|------|--------|
-| gnomAD v3.1 Hail Table | [gnomAD Downloads](https://gnomad.broadinstitute.org/downloads) |
+- **gnomAD v3.1 Hail Table**: https://gnomad.broadinstitute.org/downloads
 
 ## Usage
 
@@ -310,6 +301,14 @@ See [LICENSE](LICENSE) for full terms.
 ## Patent Notice
 
 This software may be subject to pending patent applications. The hybrid assembly-alignment approach for de novo variant detection described herein may be covered by intellectual property protections.
+
+## Citation
+
+If you use A2Denovo in your research, please cite:
+
+```
+[Citation to be added upon publication]
+```
 
 ## Contact
 
