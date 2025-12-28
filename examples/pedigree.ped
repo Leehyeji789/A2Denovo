@@ -1,0 +1,14 @@
+# Pedigree file in standard PED format
+# Columns: family_id, sample_id, father_id, mother_id, sex, phenotype
+# sex: 1=male, 2=female, 0=unknown
+# phenotype: 0=unknown, 1=unaffected, 2=affected
+# Use 0 for unknown parent IDs
+
+FAM01	NA12879	NA12877	NA12878	1	0
+FAM01	NA12877	0	0	1	0
+FAM01	NA12878	0	0	2	0
+FAM01	NA12882	NA12877	NA12878	2	0
+FAM02	NA12885	NA12883	NA12884	1	0
+FAM02	NA12883	0	0	1	0
+FAM02	NA12884	0	0	2	0
+FAM02	NA12886	NA12883	NA12884	2	0

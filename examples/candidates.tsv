@@ -1,0 +1,12 @@
+# Candidate DNV file (output from extract_dnv_candidates.py or user-provided)
+# Required columns: chrom, pos, ref, alt, id, internal_AC
+# The 'id' column contains the child sample ID
+
+chrom	pos	ref	alt	variant_ID	id	internal_AC
+chr1	12345	A	G	chr1:12345:A:G	NA12879	1
+chr1	67890	C	T	chr1:67890:C:T	NA12879	1
+chr1	99999	G	A	chr1:99999:G:A	NA12879	2
+chr2	11111	G	A	chr2:11111:G:A	NA12882	1
+chr2	22222	ATCG	A	chr2:22222:ATCG:A	NA12882	1
+chr3	33333	T	TCGA	chr3:33333:T:TCGA	NA12885	1
+chr3	44444	C	G	chr3:44444:C:G	NA12885	3

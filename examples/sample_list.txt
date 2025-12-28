@@ -1,0 +1,11 @@
+# Sample list for model training
+# Columns: subject_id, ROLE, bam_path
+# ROLE must be: child, father, or mother
+
+subject_id	ROLE	bam_path
+NA12879	child	/path/to/NA12879.bam
+NA12877	father	/path/to/NA12877.bam
+NA12878	mother	/path/to/NA12878.bam
+NA12882	child	/path/to/NA12882.bam
+NA12881	father	/path/to/NA12881.bam
+NA12880	mother	/path/to/NA12880.bam

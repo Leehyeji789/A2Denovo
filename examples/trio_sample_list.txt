@@ -1,0 +1,6 @@
+# Trio sample list for batch feature extraction (run_feature_builder.sh)
+# Columns: child_id, child_bam, father_id, father_bam, mother_id, mother_bam
+
+child_id	child_bam	father_id	father_bam	mother_id	mother_bam
+NA12879	/path/to/NA12879.bam	NA12877	/path/to/NA12877.bam	NA12878	/path/to/NA12878.bam
+NA12882	/path/to/NA12882.bam	NA12881	/path/to/NA12881.bam	NA12880	/path/to/NA12880.bam

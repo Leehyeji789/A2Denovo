@@ -1,0 +1,12 @@
+# True de novo variants file for model training
+# Option A: Use variant_ID column directly
+# Option B: Use locus_38, ref, alt columns (variant_ID will be auto-generated)
+#
+# Required: variant identifiers that match candidates file
+
+variant_ID	sample	variant_type
+chr1:12345:A:G	NA12879	SNV
+chr1:67890:C:T	NA12879	SNV
+chr2:11111:G:A	NA12882	SNV
+chr2:22222:ATCG:A	NA12882	DEL
+chr3:33333:T:TCGA	NA12885	INS
