@@ -309,14 +309,6 @@ This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for d
 
 **Patent Pending.** The hybrid assembly-alignment approach for *de novo* variant detection described herein is the subject of a pending patent application.
 
-## Citation
-
-If you use A2Denovo in your research, please cite:
-
-```
-[Citation to be added upon publication]
-```
-
 ## Contact
 
 For questions or issues, please open a GitHub issue.
