@@ -236,6 +236,20 @@ Key parameters:
 
 **Note**: Post-prediction read-level filters are applied by default. These filters ensure high-confidence DNV calls by requiring proper allele support patterns.
 
+### Using the Pre-trained Model
+
+A pre-trained model is included in the `models/` directory. You can skip the training step and directly run prediction:
+
+```bash
+python scripts/a2denovo_predict.py \
+    --model-bundle ./models/final_model_bundle_250929.pkl \
+    --feature-dir ./features/ \
+    --output-dir ./predictions/ \
+    --filter-ac1
+```
+
+This model was trained on 7 trios from Korean families using PacBio HiFi Revio sequencing (~30x coverage) and can be used for general DNV prediction.
+
 ## Output Files
 
 ### Training Outputs
@@ -301,14 +315,6 @@ See [LICENSE](LICENSE) for full terms.
 ## Patent Notice
 
 This software may be subject to pending patent applications. The hybrid assembly-alignment approach for de novo variant detection described herein may be covered by intellectual property protections.
-
-## Citation
-
-If you use A2Denovo in your research, please cite:
-
-```
-[Citation to be added upon publication]
-```
 
 ## Contact
 
